@@ -1,0 +1,34 @@
+! Title: Hide YouTube recommendation
+! Description: Every YouTube recommendation
+! Version: 0.1.0
+! Last modified: 2025-01-11 21:51
+! Homepage: https://github.com/PumukyDev/ublock-yt-minimal
+! License: https://github.com/PumukyDev/ublock-yt-minimal/blob/main/LICENSE
+
+
+! Hide the side navigation drawer (the left sidebar menu)
+www.youtube.com##tp-yt-app-drawer#guide
+
+! Hide the secondary section (usually the related videos or recommendations on the right sidebar)
+www.youtube.com##div#secondary
+
+! Hide the main masthead (the top section with the YouTube logo, search bar, and user menu)
+www.youtube.com##ytd-masthead#masthead
+
+! Hide the channel details container (used for displaying channel information)
+www.youtube.com##div#channel
+
+! Hide the container that holds the masthead (the main top part of the page, including the header)
+www.youtube.com##content#masthead-container
+
+! Hide sections of items (like video lists in the homepage or subscriptions section)
+www.youtube.com##ytd-item-section-renderer#sections
+
+! Hide the shelf renderer that holds multiple sections of content (like recommended or trending videos)
+www.youtube.com##ytd-shelf-renderer#style-scope
+
+! Hide the item section renderer within shelves (used for grouping video lists)
+www.youtube.com##ytd-shelf-renderer#ytd-item-section-renderer
+
+! Hide the main content container (holds the main body of the page)
+www.youtube.com##content#container
