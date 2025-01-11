@@ -4,7 +4,7 @@ A [uBlock Origin](https://github.com/gorhill/uBlock) filter list designed to hid
 1. Copy the link below.
 
 ```
-https://github.com/PumukyDev/ublock-yt-minimal/blob/main/list.txt
+https://raw.githubusercontent.com/PumukyDev/ublock-yt-minimal/main/list.txt
 ```
 
 2. Open uBlock Origin > Dashboard > Filter lists.
